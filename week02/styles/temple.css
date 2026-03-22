@@ -42,3 +42,24 @@ img {
     box-shadow: 0 0 30px #333;
 
 }
+
+section {
+    margin: 20px 0;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 10px;
+    background-color: rgb(198, 200, 207);
+    font-size: .9rem;
+}
+
+section p {
+    margin: 10px;
+
+}
+
+ul {
+    margin: 10px 20px;
+}
+
+footer {
+    font-size: .9rem;
+}

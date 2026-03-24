@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #055a05;
-    --secondary_color: #f4a261;
+    --primary-color: #f1f8f1;
+    --secondary_color: #09bb71;
     --accent1-color: #264653;
     --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Geogia", serif;
@@ -82,13 +82,25 @@ header img {
 
 }
 
+h2 {
+    background-color: var(--secondary_color);
+    color: white;
+    padding: 4px;
+    text-align: center;
+
+}
+
 article {
     position: absolute;
-    top: 418px;
+    top: 400px;
     width: 100%;
     padding: 0px;
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
     color: #fff;
+}
+
+footer p {
+    border-top: 1px #264653;
 }

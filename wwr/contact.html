@@ -9,7 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us | Huncleblack White Water Rafting Company</title>
     <link rel="stylesheet" href="styles/rafting.css">
-
 </head>
 
 <body>
@@ -23,17 +22,20 @@
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
-
     </header>
+
     <main>
+        <h1>Huncleblack White Water Rafting Company</h1>
+
         <section class="map">
-            <h2>Our location</h2>
+            <h2>Our Location</h2>
             <div class="google-map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d23111.332915743995!2d7.362924595714555!3d5.131767085665137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1775161939253!5m2!1sen!2sng"
                   loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
+
         <section class="contact-info">
             <h2>Contact Information</h2>
             <p><strong>Address:</strong> No.130 School Road, Aba</p>
@@ -41,32 +43,30 @@
             <p><strong>Email:</strong> chinweubaogugbue@gmail.com</p>
         </section>
 
-
         <section class="employees">
             <h2>Meet Our Team</h2>
-
             <div class="staffs">
-
                 <figure>
-                    <img src="images/manager.jpg" alt="Manager">
+                    <img src="images/manager.jpg" alt="Sarah, company manager">
                     <figcaption>Sarah: Manager</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/guid.jpg" alt="Guide">
+                    <img src="images/guid.jpg" alt="John, rafting guide">
                     <figcaption>John: Tour Guide</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/employee.jpg" alt="field Support">
+                    <img src="images/employee.jpg" alt="Jane, support staff">
                     <figcaption>Jane: Support Staff</figcaption>
                 </figure>
             </div>
         </section>
+
         <section class="contact-form">
             <h2>Send Us a Message</h2>
 
-            <form>
+            <form action="#" method="post">
 
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
@@ -77,38 +77,37 @@
                 <fieldset>
                     <legend>Purpose of message</legend>
 
-                    <label>
-                        <input type="radio" name="purpose" value="reservation">
+                    <label for="reservation">
+                        <input type="radio" id="reservation" name="purpose" value="reservation"
+                          required>
                         Reservation Question
                     </label>
 
-                    <label>
-                        <input type="radio" name="purpose" value="general" required>
+                    <label for="general">
+                        <input type="radio" id="general" name="purpose" value="general">
                         General Inquiry
                     </label>
-                    <label>
-                        <input type="radio" name="purpose" value="suggestion">
+
+                    <label for="suggestion">
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
                         Website Suggestion
                     </label>
-
                 </fieldset>
-
 
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" required></textarea>
 
-                <label>
-                    <input type="checkbox" name="subscribe">
-                    Subscribe to the monthly newsletter
+                <label for="subscribe">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    Please subscribe me to the monthly newsletter
                 </label>
 
                 <button type="submit">Send Message</button>
 
             </form>
         </section>
-
-
     </main>
+
     <footer>
         <p>&copy; 2026 | HUNCLEBLACK WHITE WATER RAFTING COMPANY | Chinweuba Ogugbue</p>
         <nav class="socialmedia">
@@ -117,11 +116,11 @@
             </a>
 
             <a href="https://instagram.com" target="_blank">
-                <img src="images/instergram.jpg" alt="instagram">
+                <img src="images/instergram.jpg" alt="Instagram">
             </a>
 
             <a href="https://linkedin.com" target="_blank">
-                <img src="images/linkedin.jpg" alt="linkedin">
+                <img src="images/linkedin.jpg" alt="LinkedIn">
             </a>
         </nav>
     </footer>

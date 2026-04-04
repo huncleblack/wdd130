@@ -1,8 +1,8 @@
 :root {
     --primary-color: #f1f8f1;
-    --secondary_color: #09bb71;
+    --secondary-color: #09bb71;
     --accent1-color: #264653;
-    --heading-font: "Times New Roman", "Geogia", serif;
+    --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, Sans-serif;
 
 }
@@ -164,4 +164,29 @@ footer {
 .socialmedia img {
     width: 30px;
 
+}
+
+.employees figure {
+    text-align: center;
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.employees img {
+    width: 10rem;
+    height: auto;
+    margin-top: 10px;
+}
+
+.staffs {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.google-map {
+    margin-top: 10px;
 }

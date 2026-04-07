@@ -23,7 +23,6 @@ nav {
 
 nav a {
     color: white;
-    text-decoration: none;
     padding: 10px;
     display: block;
 }
@@ -41,14 +40,11 @@ main img {
     border: 1rem;
     padding: 10px;
     box-shadow: 5px 5px 10px gray;
-    border-radius: 20px;
-    display: block;
-    margin-left: auto;
 
 }
 
 h1 {
-    text-align: center;
+
     color: white;
 }
 

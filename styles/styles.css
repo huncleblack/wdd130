@@ -24,6 +24,8 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
+    padding: 10px;
+    display: block;
 }
 
 main {
@@ -34,16 +36,20 @@ main {
 }
 
 main img {
+    width: 150px;
+    height: auto;
+    border: 1rem;
+    padding: 10px;
     box-shadow: 5px 5px 10px gray;
     border-radius: 20px;
-    width: 150px;
     display: block;
     margin-left: auto;
-    height: auto;
+
 }
 
 h1 {
     text-align: center;
+    color: white;
 }
 
 aside {
@@ -58,7 +64,7 @@ aside {
 }
 
 aside img {
-    width: 100px;
+    width: 200px;
     height: auto;
 
 }

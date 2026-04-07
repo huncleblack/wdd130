@@ -27,6 +27,7 @@ nav a {
 }
 
 main {
+    max-width: 840px;
     background-color: white;
     padding: 15px;
     grid-column: 2;
@@ -35,9 +36,10 @@ main {
 main img {
     box-shadow: 5px 5px 10px gray;
     border-radius: 20px;
-    width: 120px;
+    width: 150px;
     display: block;
     margin-left: auto;
+    height: auto;
 }
 
 h1 {
@@ -45,9 +47,14 @@ h1 {
 }
 
 aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
     background-color: #f4f4f4;
-    padding: 15px;
+    padding: 1rem;
     grid-column: 1;
+    color: #333;
+    text-align: center;
 }
 
 aside img {
@@ -72,4 +79,14 @@ main ul {
 
 main ul a {
     text-decoration: none;
+}
+
+p {
+    padding: 0;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
 }

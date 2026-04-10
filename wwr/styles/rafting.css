@@ -75,6 +75,7 @@ nav li {
 
 .map-form {
     display: flex;
+    justify-content: center;
 }
 
 iframe {
@@ -83,9 +84,19 @@ iframe {
 }
 
 .article1-img img {
-    width: 50rem;
-    height: 20rem;
+    width: 20rem;
+    height: auto;
     border-radius: 80px;
+}
+
+.article1-img {
+    display: flex;
+    gap: 5rem;
+}
+
+.article1-h2 {
+    text-align: center;
+    margin-top: 20px;
 }
 
 .wwr {
